@@ -1,0 +1,11 @@
+char* enter_verify_adress_ip(char *adresse);
+int debug_adress_ip(char *adresse);
+char* transform_ip_binary(int octet);
+void display_binary_ip(int octet);
+char* enter_and_binary_msr(char *msr);
+int debug_adress_msr(char *msr);
+void transform_msr_binary(int octet);
+void display_binary_msr(char *msr,int octet);
+void validation_msr(char *msr);
+char* alloc(int dim);
+void adresse_reseau_broad_cast(char* A,char* B);
